@@ -60,29 +60,24 @@ export default function App() {
         <>
             <RemoveScrollBar />
             <div className='App' data-scroll-container >
-                <div className="appContainer"
+                <Header
                     data-scroll
-                    data-scroll-id="appContainer"
-                >
-                    <Header
-                        data-scroll
-                        data-scroll-section
-                        data-scroll-repeat
-                        data-scroll-speed="1"
-                    />
-                    <Body
-                        data-scroll
-                        data-scroll-section
-                        data-scroll-repeat
-                        data-scroll-speed="1"
-                    />
-                    <Footer
-                        data-scroll
-                        data-scroll-section
-                        data-scroll-repeat
-                        data-scroll-speed="1"
-                    />
-                </div>
+                    data-scroll-section
+                    data-scroll-repeat
+                    data-scroll-speed="1"
+                />
+                <Body
+                    data-scroll
+                    data-scroll-section
+                    data-scroll-repeat
+                    data-scroll-speed="1"
+                />
+                <Footer
+                    data-scroll
+                    data-scroll-section
+                    data-scroll-repeat
+                    data-scroll-speed="1"
+                />
             </div>
         </>
     );
