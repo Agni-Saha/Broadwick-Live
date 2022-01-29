@@ -4,7 +4,7 @@
 
 ## There are two reasons behind using Locomotive Scroll -
 1. Simple Smooth Scroll, although it can be achieved using CSS and JS also
-2. Fixed elements scrolling while target is in view. I couldn't figure this one \ using JS and CSS. If I can, then I'll definitely remove Locomotive
+2. Fixed elements scrolling while target is in view. I couldn't figure this one using JS and CSS. If I can, then I'll definitely remove Locomotive
 
 ## The problems I faced while creating this -
 1. First and foremost, the biggest problem is that we cannot use window.scrollY and/or document.body.scrollTop, and so position fixed, relative, absolute won't work here
