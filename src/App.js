@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 
 export default function App() {
     useEffect(() => {
+
         const scroll = new LocomotiveScroll({
             el: document.querySelector('[data-scroll-container]'),
             smooth: true,
